@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){let e=document.getElementById("connectSocket");chrome.runtime.sendMessage({type:"CONNECT_CHECK"},(n=>{n&&"CONNECT_SOCKET_ERROR"!==n&&(e.innerHTML="Connection ID: <p style='color:black'>"+n+"</p>",e.disabled=!0)}))}()})();
